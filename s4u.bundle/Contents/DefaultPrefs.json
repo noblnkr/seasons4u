@@ -1,0 +1,44 @@
+[
+  {
+    "id": "username",
+    "type": "text",
+    "label": "Username",
+    "default": ""
+  },
+  {
+    "id": "password",
+    "type": "text",
+    "label": "Password",
+    "default": "",
+    "option": "hidden"
+  },
+
+  {
+    "id": "quality",
+    "label": "Quality",
+    "type": "enum",
+    "values": [
+      "Auto Quality",
+      "150K",
+      "400K",
+      "800K",
+      "1200K",
+      "1600K",
+      "2400K",
+      "3000K",
+      "4500K",
+      "6000K (When Available)",
+      "10000K (When Available)"
+    ],
+    "default": "Auto Quality"
+  },
+  {
+    "id": "protocol",
+    "type": "enum",
+    "values": [
+      "http","https"
+    ],
+    "label": "Transfer Protocol (https may cause issues on Linux boxes)",
+    "default": "http"
+  }
+]
